@@ -1,0 +1,14 @@
+size=4
+count=0
+for i in range(size):
+    for j in range(size):
+        print(chr(97 + count),end=" ")
+        count += 1
+    print()
+     
+
+output: 
+a b c d
+e f g h
+i j k l 
+m n o p
