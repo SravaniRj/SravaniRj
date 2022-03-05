@@ -1,0 +1,9 @@
+m=int(input())
+l=input()
+t=[]
+for i in l:
+   n = l.count(i)
+   if n > 1:
+     if t.count(i)==0:
+        t.append(i)
+print(i)
